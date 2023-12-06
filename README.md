@@ -14,9 +14,6 @@ Laporan resmi praktikum jaringan komputer modul 4 kelompok F09
 4. Pembagian IP menggunakan Prefix IP yang telah ditentukan pada modul pengenalan
 5. Pembagian IP dan routing harus SE-EFISIEN MUNGKIN.
 
-<br>
-<hr>
-<br>
 > Hal yang perlu diperhatikan
 1. Gunakan prefix IP sesuai dengan prefix IP masing-masing.
 2. Terdapat template spreadsheet untuk mempermudah penilaian, gunakan template tersebut untuk melakukan penghitungan subnetting.
@@ -42,11 +39,76 @@ Lalu dari situ, kami mencatatnya dalam sheet sebagai berikut:
 # CIDR
 Kelompok kami menggunakan <i>Cisco Packet Tracer</i> (CPT) untuk metode CIDR
 ## Membuat Topologi Di CPT
+Sebelum lebih lanjut labelling subnet, kami membuat dulu topologinya pada CPT
+![image](https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/cf080410-7d2c-4490-bd7b-0fb2409aea4e)
 
-![image](https://private-user-images.githubusercontent.com/115441787/288444262-0db19bdf-d318-40c1-88d2-62bee2a659b3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE4NzQyOTQsIm5iZiI6MTcwMTg3Mzk5NCwicGF0aCI6Ii8xMTU0NDE3ODcvMjg4NDQ0MjYyLTBkYjE5YmRmLWQzMTgtNDBjMS04OGQyLTYyYmVlMmE2NTliMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIwNlQxNDQ2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZTVmMThmNDRiYmU5NDRjYjMxMTM2NjlmNmQ1YTc4YmE4ODk2MjAxNDczOGFiYzFlMmMxZDEzNGQxYTg3MmJjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.px2mmBxdBBtneNpc-gxBcoJh7ZiLS73kx2Lb714X9ME)
+## Labelling subnet
+Setelah itu, kami mulai labelling subnet. Untuk labelling, kelompok kami membuat tahap penggabungan sampai K. berikut penggabungannya
+> B
+<img width="748" alt="Jarkom_M4_B" src="https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/bda55c8c-93c9-45b8-b85d-43b8b693df95">
+
+> C
+<img width="748" alt="Jarkom_M4_C" src="https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/c1f344e0-7d23-41e1-8ea2-4253418a8750">
+
+> D
+<img width="748" alt="Jarkom_M4_d" src="https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/8afe3df9-6802-47e5-81a2-6ccbef96a27d">
+
+> E
+<img width="748" alt="Jarkom_M4_E" src="https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/1bc1e524-5a8e-4b06-9a15-1145a03a3917">
+
+> F
+<img width="748" alt="Jarkom_M4_F" src="https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/16d635f4-e2a2-45f7-9002-d351b28e65ec">
+
+> G
+<img width="748" alt="Jarkom_M4_G" src="https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/b6d6d999-d72c-4cd8-b691-20befdb3a6c2">
+
+> H
+<img width="748" alt="Jarkom_M4_H" src="https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/5fd417c3-8be3-452f-9593-5ac2693977c7">
+
+> I
+<img width="748" alt="Jarkom_M4_I" src="https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/02bd7307-ee86-4bc8-a825-936ebdad696d">
+
+> J
+<img width="748" alt="Jarkom_M4_J" src="https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/1c7a6bd2-f4ea-4d87-b793-ff88dc9f9f72">
+
+> K
+<img width="748" alt="Jarkom_M4_K" src="https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/9564a439-c48a-4456-b3a2-e2992f537efd">
+
+## Memasukkan ke Sheet Penggabungan
+Setelah membuat pembagiannya, kami langsung catat di sheet penggabungan untuk memudahkan kami saat membuat tree. Berikut sheet penggabungan:
+
+![image](https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/28357272-3e36-4687-abb2-1d632472ad98)
+![image](https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/b8276a66-9eb3-4d8a-a39e-7fe1e056db8c)
+
+## Membuat Tree
+Proses pembuatan tree menghasilkan tree berikut:
+
+![image](https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/a053fd52-209e-4fab-bae1-5bbf38498b63)
+
+## Memasukkan ke Sheet Pembagian IP
+Setelah dibuat tree, masing-masing subnet sudah memiliki IP. Lalu kami masukkan IP ke sheet:
+
+![image](https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/9fdfe5c2-158d-466f-b4ac-47efc8a796d9)
+
+## Melakukan Subnetting pada CPT
+Untuk melakukan subnetting, klik router/host yang ingin di-config, lalu klig config. Pada config, masukkan NID + 1, NID + 2, dst sesuai kebutuhan. Sebagai contoh, kita ambil 2 router ini:
+
+![image](https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/4261e5fa-0019-407a-af33-fed261f46862)
+
+Pada Aura, yang mengarah ke Frieren adalah 1/0. Maka kita lakukan config di FastEthernet1/0. Masukkan NID + 1 dan subnet mask sesuai netmasknya. Untuk Aura dan Frieren, karena netmasknya /30, maka subnet masknya adalah 255.255.255.252
+
+Lalu pada Frieren juga lakukan hal yang sama. Bedanya adalah, Frieren menggunakan FastEthernet0/0 karena 0/0 mengarah ke Aura. Lalu Frieren juga menggunakannya NID + 2 karena NID + 1 sudah dipakai Aura
+
+Setelah itu lakukan ping dari Aura ke Frieren atau sebaliknya. Lakukan ping 2 kali untuk mengetes, karena ping pertama pasti fail
+
+## Melakukan Routing pada CPT
+Untuk routing, masuk ke config -> Routing -> Static. Lalu masukkan IP dari semua router/host ke next hop. Sedangkan field netmask dan network bisa diisi 0.0.0.0. Klik add dan setelah itu akan seperti ini:
+
+![image](https://github.com/LuvinVictii/Jarkom-Modul-4-F09-2023/assets/78089862/80245b65-c969-400a-a3e5-5d996e06dbb5)
 
 # VLSM
 Kelompok kami menggunakan <i>GNS3</i> untuk metode VLSM
+![image](https://private-user-images.githubusercontent.com/115441787/288444262-0db19bdf-d318-40c1-88d2-62bee2a659b3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE4NzQyOTQsIm5iZiI6MTcwMTg3Mzk5NCwicGF0aCI6Ii8xMTU0NDE3ODcvMjg4NDQ0MjYyLTBkYjE5YmRmLWQzMTgtNDBjMS04OGQyLTYyYmVlMmE2NTliMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIwNlQxNDQ2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZTVmMThmNDRiYmU5NDRjYjMxMTM2NjlmNmQ1YTc4YmE4ODk2MjAxNDczOGFiYzFlMmMxZDEzNGQxYTg3MmJjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.px2mmBxdBBtneNpc-gxBcoJh7ZiLS73kx2Lb714X9ME)
 
 
 | Subnet  | IP | Alias  |  Subnet Mask  | Lenght  |
