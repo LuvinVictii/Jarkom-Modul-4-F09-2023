@@ -44,10 +44,6 @@ Kelompok kami menggunakan <i>Cisco Packet Tracer</i> (CPT) untuk metode CIDR
 ## Membuat Topologi Di CPT
 # VLSM
 Kelompok kami menggunakan <i>GNS3</i> untuk metode VLSM
->>>>>>> d07b0e4d2b5996917a8a9be5c6f52c5d594eeebd
-
-# VLSM - GNS3
-
 
 | Subnet | Alias | IP | Subnet Mask | Lenght |
 
@@ -543,3 +539,4 @@ up route add -net 10.56.28.4 netmask 255.255.255.252 gw 10.56.28.14
 
 up route add -net 10.56.30.0 netmask 255.255.255.248 gw 10.56.28.14
 ```
+>>>>>>> d07b0e4d2b5996917a8a9be5c6f52c5d594eeebd
