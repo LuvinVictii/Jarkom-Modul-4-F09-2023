@@ -14,9 +14,9 @@ Laporan resmi praktikum jaringan komputer modul 4 kelompok F09
 4. Pembagian IP menggunakan Prefix IP yang telah ditentukan pada modul pengenalan
 5. Pembagian IP dan routing harus SE-EFISIEN MUNGKIN.
 
-<<<<<<< HEAD
-
-=======
+<br>
+<hr>
+<br>
 > Hal yang perlu diperhatikan
 1. Gunakan prefix IP sesuai dengan prefix IP masing-masing.
 2. Terdapat template spreadsheet untuk mempermudah penilaian, gunakan template tersebut untuk melakukan penghitungan subnetting.
@@ -42,6 +42,9 @@ Lalu dari situ, kami mencatatnya dalam sheet sebagai berikut:
 # CIDR
 Kelompok kami menggunakan <i>Cisco Packet Tracer</i> (CPT) untuk metode CIDR
 ## Membuat Topologi Di CPT
+
+![image](https://private-user-images.githubusercontent.com/115441787/288444262-0db19bdf-d318-40c1-88d2-62bee2a659b3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE4NzQyOTQsIm5iZiI6MTcwMTg3Mzk5NCwicGF0aCI6Ii8xMTU0NDE3ODcvMjg4NDQ0MjYyLTBkYjE5YmRmLWQzMTgtNDBjMS04OGQyLTYyYmVlMmE2NTliMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIwNlQxNDQ2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZTVmMThmNDRiYmU5NDRjYjMxMTM2NjlmNmQ1YTc4YmE4ODk2MjAxNDczOGFiYzFlMmMxZDEzNGQxYTg3MmJjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.px2mmBxdBBtneNpc-gxBcoJh7ZiLS73kx2Lb714X9ME)
+
 # VLSM
 Kelompok kami menggunakan <i>GNS3</i> untuk metode VLSM
 
@@ -538,4 +541,3 @@ up route add -net 10.56.28.4 netmask 255.255.255.252 gw 10.56.28.14
 
 up route add -net 10.56.30.0 netmask 255.255.255.248 gw 10.56.28.14
 ```
->>>>>>> d07b0e4d2b5996917a8a9be5c6f52c5d594eeebd
