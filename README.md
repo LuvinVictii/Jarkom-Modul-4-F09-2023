@@ -45,7 +45,6 @@ Kelompok kami menggunakan <i>Cisco Packet Tracer</i> (CPT) untuk metode CIDR
 # VLSM
 Kelompok kami menggunakan <i>GNS3</i> untuk metode VLSM
 
-| Subnet | Alias | IP | Subnet Mask | Lenght |
 
 | Subnet  | IP | Alias  |  Subnet Mask  | Lenght  |
 | ----- | ----- | ----- | ----- | ----- |
